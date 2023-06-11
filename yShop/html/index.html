@@ -1,0 +1,140 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="container">
+            <div class="author">
+               
+                <img  class="titres" src="img/247.png" alt="">
+                <!-- <div class="cat" id="cat">
+                            <div class="drink-cat" id="drink-cat">
+                                <button id="drink-catb" class="drink-catb" type="submit">Boisson</button>
+                            </div>
+
+                            <br>
+                            
+                            <div class="eat-cat" id="eat-cat">
+                                <button id="eat-cate" class="eat-cate"type="submit">Manger</button>
+                            </div>
+
+                            <br>
+
+                            <div class="categorie" id="categorie">
+                                <button id="other" class="other"type="submit">Other</button>
+                            </div>
+                    </div> -->
+                
+
+                <div class="iconp">
+                    
+
+                    <div class="food">
+                        <img src="img/food.png" class="food-img" id="food-img" alt="buttonnpng"/>
+                        <h3 class="food-text">Nouriturre</h3>
+                    </div>
+
+                    <div class="drink">
+                        <img src="img/drink.png" class="drink-img" id="drink-img" alt="buttonfnpng"/>    
+                        <h3 class="drink-text">Boisson</h3>
+                    </div>
+
+                    
+                    <div class="other">
+                        <img src="img/other.png" class="other-img" id="other-img" alt="a"/>    
+                        <h3 class="other-text">Autre</h3>
+                    </div>
+                     
+                     
+                    <div class="panier-button">
+                        <img src="img/panier.png" class="panier-img" id="panier-img"  onclick="test()" alt="buttonpng"/> 
+                        <h6 id="numberpanier"class="numberpanier" >0</h6>
+                        <h3 class="panier-text">Panier</h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="item" id="item">
+                <div class="shop" id="shop">
+
+                    <div class="item-boxe">
+                        <div class="item-author">
+                            <h3 class="price-item">$100</h3>
+                            <img src="img/water.png" class="img-item">
+                        </div>
+                        <div class="item-body">
+
+                            <h1 class="name-item">Sprite</h1>
+                            <div class="counter">
+                                <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                                <input type="text" class="item-quantity-panire"value="1">
+                                <span class="up" onClick='increaseCount(event, this)'>+</span>
+                            </div>
+
+                          
+
+
+                            <button class="item-add-panier">AJOUTER AU PANIER</button>
+                        </div>
+                    </div>
+
+      
+
+
+                </div>
+            </div>
+
+
+
+            <div id="panier">
+
+
+                <div id="cart-container" class="cart-container">
+                    <h1 class="titre-panier">PANIER</h1>
+                    <!-- <div id="panier-boxe" class="panier-boxe">
+
+                        <div class="panier-rectange">
+                            <img src="img/water.png" class="img-panier">
+                            <div class="panier-body">
+                                <h1 class="name-panier">Sprite</h1>
+    
+                                <h3 class="panier-prix">$100</h3>
+                            </div>
+
+                            
+                            <button class="panier-supprimer">X</button>
+                        </div>
+
+                 </div> -->
+                
+                    
+                </div>
+                <button class="acheter" id="acht">Acheter</button>  
+
+                
+            </div>
+
+
+
+            <div class="mangeer" id="manger">
+                <div class="retour" id="retour">
+                    <button id="retoure" class="retourb" type="submit"> < Retour</button>
+                </div>
+                <div class="shope" id="shope">
+                </div>
+            </div>
+    
+            
+		</div>
+
+
+        
+        <script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>
